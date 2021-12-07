@@ -1,7 +1,7 @@
 set number relativenumber
 
-# vnoremap J :m '>+1<CR>gv=gv
-# vnoremap K :m '<-2<CR>gv=gv
+" vnoremap J :m '>+1<CR>gv=gv
+" vnoremap K :m '<-2<CR>gv=gv
 
 call plug#begin(stdpath('data') . '/plugged')
 Plug 'neovim/nvim-lspconfig'
